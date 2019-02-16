@@ -8,11 +8,14 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class CvViewController: UIViewController {
 
+    @IBOutlet var cvTabBarItem: UITabBarItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        cvTabBarItem.selectedImage = tabBarItem.selectedImage?.withRenderingMode(.alwaysOriginal)
+
+        
     }
 
 

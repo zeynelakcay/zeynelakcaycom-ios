@@ -8,11 +8,13 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ArticleViewController: UIViewController {
 
+    @IBOutlet var articleTabBarItem: UITabBarItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        articleTabBarItem.selectedImage = tabBarItem.selectedImage?.withRenderingMode(.alwaysOriginal)
+
     }
 
 
