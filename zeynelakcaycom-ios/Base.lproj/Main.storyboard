@@ -33,7 +33,7 @@
         <scene sceneID="ARa-88-G9u">
             <objects>
                 <viewController id="gAt-Tn-9cB" customClass="SettingViewController" customModule="zeynelakcaycom_ios" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="akF-Fr-tee">
+                    <view key="view" contentMode="redraw" id="akF-Fr-tee">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -88,8 +88,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="articles" width="18" height="25"/>
-        <image name="cv" width="30" height="14"/>
-        <image name="settings" width="36" height="28"/>
+        <image name="articles" width="70" height="100"/>
+        <image name="cv" width="118" height="52"/>
+        <image name="settings" width="116" height="82"/>
     </resources>
 </document>
