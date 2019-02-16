@@ -88,8 +88,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="articles" width="70" height="100"/>
-        <image name="cv" width="118" height="52"/>
-        <image name="settings" width="116" height="82"/>
+        <image name="articles" width="36" height="50"/>
+        <image name="cv" width="92" height="40"/>
+        <image name="settings" width="60" height="42"/>
     </resources>
 </document>

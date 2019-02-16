@@ -14,6 +14,7 @@ class CvViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         cvTabBarItem.selectedImage = tabBarItem.selectedImage?.withRenderingMode(.alwaysOriginal)
+
         
     }
 
