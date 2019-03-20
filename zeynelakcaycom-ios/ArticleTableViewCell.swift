@@ -11,7 +11,6 @@ import UIKit
 class ArticleTableViewCell: UITableViewCell {
     @IBOutlet weak var foodImageView: UIImageView!
     @IBOutlet weak var foodName: UILabel!
-    
     @IBOutlet weak var locationStore: UILabel!
     @IBOutlet weak var priceFood: UILabel!
     

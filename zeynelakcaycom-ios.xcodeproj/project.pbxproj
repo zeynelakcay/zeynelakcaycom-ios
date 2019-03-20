@@ -15,6 +15,7 @@
 		1B5F94DE22188949005DA358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F94DC22188949005DA358 /* LaunchScreen.storyboard */; };
 		1B5F94E622189137005DA358 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F94E522189137005DA358 /* SettingViewController.swift */; };
 		1B5F94EC221981CB005DA358 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F94EB221981CB005DA358 /* ArticleTableViewCell.swift */; };
+		1BF4D8F1223D165C00380BA6 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4D8F0223D165C00380BA6 /* ArticleDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1B5F94DF22188949005DA358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5F94E522189137005DA358 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		1B5F94EB221981CB005DA358 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		1BF4D8F0223D165C00380BA6 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				1B5F94D122188949005DA358 /* AppDelegate.swift */,
 				1B5F94D322188949005DA358 /* ArticleViewController.swift */,
+				1BF4D8F0223D165C00380BA6 /* ArticleDetailViewController.swift */,
 				1B5F94D522188949005DA358 /* CvViewController.swift */,
 				1B5F94E522189137005DA358 /* SettingViewController.swift */,
 				1B5F94D722188949005DA358 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				1B5F94EC221981CB005DA358 /* ArticleTableViewCell.swift in Sources */,
 				1B5F94D622188949005DA358 /* CvViewController.swift in Sources */,
+				1BF4D8F1223D165C00380BA6 /* ArticleDetailViewController.swift in Sources */,
 				1B5F94D222188949005DA358 /* AppDelegate.swift in Sources */,
 				1B5F94D422188949005DA358 /* ArticleViewController.swift in Sources */,
 				1B5F94E622189137005DA358 /* SettingViewController.swift in Sources */,
